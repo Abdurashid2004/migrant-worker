@@ -1,0 +1,174 @@
+{
+  meta: {
+    error: SyntaxError: Expected ',' or '}' after property value in JSON at position 54
+        at JSON.parse (<anonymous>)
+        at parse (C:\Users\Rashidbek\Desktop\migrantWorks\node_modules\body-parser\lib\types\json.js:92:19)
+        at C:\Users\Rashidbek\Desktop\migrantWorks\node_modules\body-parser\lib\read.js:128:18
+        at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+        at invokeCallback (C:\Users\Rashidbek\Desktop\migrantWorks\node_modules\raw-body\index.js:238:16)
+        at done (C:\Users\Rashidbek\Desktop\migrantWorks\node_modules\raw-body\index.js:227:7)
+        at IncomingMessage.onEnd (C:\Users\Rashidbek\Desktop\migrantWorks\node_modules\raw-body\index.js:287:7)
+        at IncomingMessage.emit (node:events:518:28)
+        at endReadableNT (node:internal/streams/readable:1696:12)
+        at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+      expose: true,
+      statusCode: 400,
+      status: 400,
+      body: '{\r\n' +
+        '    "vacansy_id": "1", \r\n' +
+        '    "worker_id": "2"\r\n' +
+        '    "application_date": "2004-10-21"\r\n' +
+        '}',
+      type: 'entity.parse.failed'
+    },
+    level: 'error',
+    message: "uncaughtException: Expected ',' or '}' after property value in JSON at position 54\n" +
+      "SyntaxError: Expected ',' or '}' after property value in JSON at position 54\n" +
+      '    at JSON.parse (<anonymous>)\n' +
+      '    at parse (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n' +
+      '    at C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+      '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+      '    at invokeCallback (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js:238:16)\n' +
+      '    at done (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js:227:7)\n' +
+      '    at IncomingMessage.onEnd (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js:287:7)\n' +
+      '    at IncomingMessage.emit (node:events:518:28)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1696:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+    stack: "SyntaxError: Expected ',' or '}' after property value in JSON at position 54\n" +
+      '    at JSON.parse (<anonymous>)\n' +
+      '    at parse (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n' +
+      '    at C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+      '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+      '    at invokeCallback (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js:238:16)\n' +
+      '    at done (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js:227:7)\n' +
+      '    at IncomingMessage.onEnd (C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js:287:7)\n' +
+      '    at IncomingMessage.emit (node:events:518:28)\n' +
+      '    at endReadableNT (node:internal/streams/readable:1696:12)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)',
+    exception: true,
+    date: 'Thu Mar 07 2024 10:37:55 GMT+0500 (Uzbekistan Standard Time)',
+    process: {
+      pid: 7896,
+      uid: null,
+      gid: null,
+      cwd: 'C:\\Users\\Rashidbek\\Desktop\\migrantWorks',
+      execPath: 'C:\\Program Files\\nodejs\\node.exe',
+      version: 'v20.11.0',
+      argv: [
+        'C:\\Program Files\\nodejs\\node.exe',
+        'C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\app'
+      ],
+      memoryUsage: {
+        rss: 54349824,
+        heapTotal: 18702336,
+        heapUsed: 15835600,
+        external: 2434171,
+        arrayBuffers: 17150
+      }
+    },
+    os: { loadavg: [ 0, 0, 0 ], uptime: 1256076.968 },
+    trace: [
+      {
+        column: null,
+        file: null,
+        function: 'JSON.parse',
+        line: null,
+        method: 'parse',
+        native: false
+      },
+      {
+        column: 19,
+        file: 'C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\body-parser\\lib\\types\\json.js',
+        function: 'parse',
+        line: 92,
+        method: null,
+        native: false
+      },
+      {
+        column: 18,
+        file: 'C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\body-parser\\lib\\read.js',
+        function: null,
+        line: 128,
+        method: null,
+        native: false
+      },
+      {
+        column: 9,
+        file: 'node:async_hooks',
+        function: 'AsyncResource.runInAsyncScope',
+        line: 206,
+        method: 'runInAsyncScope',
+        native: false
+      },
+      {
+        column: 16,
+        file: 'C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js',
+        function: 'invokeCallback',
+        line: 238,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: 'C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js',
+        function: 'done',
+        line: 227,
+        method: null,
+        native: false
+      },
+      {
+        column: 7,
+        file: 'C:\\Users\\Rashidbek\\Desktop\\migrantWorks\\node_modules\\raw-body\\index.js',
+        function: 'IncomingMessage.onEnd',
+        line: 287,
+        method: 'onEnd',
+        native: false
+      },
+      {
+        column: 28,
+        file: 'node:events',
+        function: 'IncomingMessage.emit',
+        line: 518,
+        method: 'emit',
+        native: false
+      },
+      {
+        column: 12,
+        file: 'node:internal/streams/readable',
+        function: 'endReadableNT',
+        line: 1696,
+        method: null,
+        native: false
+      },
+      {
+        column: 21,
+        file: 'node:internal/process/task_queues',
+        function: 'process.processTicksAndRejections',
+        line: 82,
+        method: 'processTicksAndRejections',
+        native: false
+      }
+    ],
+    req: {
+      url: '/api/application',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.36.3',
+        accept: '*/*',
+        'postman-token': '4aaa5e83-edb3-41fa-a868-cfc025e03b73',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '89',
+        cookie: 'refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIxIiwiaXNfYWN0aXZlIjpmYWxzZSwiaWF0IjoxNzA5Nzg1MzI0LCJleHAiOjE3MDk3ODcxMjR9.jZrEnvLXYjGwxp3cjTDsO2hp4R_6AMkRzJLMTrPSV7s'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/api/application',
+      query: {}
+    }
+  },
+  level: 'error',
+  message: 'middlewareError',
+  timestamp: '2024-03-07T05:37:55.673Z'
+}

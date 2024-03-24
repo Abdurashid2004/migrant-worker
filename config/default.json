@@ -1,0 +1,20 @@
+{
+  "port": 3000,
+  "db_host": "localhost",
+  "db_username": "postgres",
+  "db_port": 5432,
+  "db_password": "200421",
+  "db_name": "migrantWorker",
+
+  "access_key": "MyAccessTokenSecretKey1",
+  "refresh_key": "MyRefreshTokenSecretKey",
+  "access_time": "15min",
+  "refresh_time": "30min",
+  "refresh_ms": 186400000,
+
+  "smtp_password": "vymlexutmxdenezl",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "rashidbekkamoldinov@gmail.com",
+  "api_url": "http://localhost"
+}
